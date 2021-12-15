@@ -1,0 +1,74 @@
+*{
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #d4d3dd, #3c5aa6);
+}
+
+h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.pokeWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+.poke-container {
+    margin: 20px 10px;
+    width: 250px;
+    height: 420px;
+    border-radius: 10px;
+}
+.poke-container .poke-img {
+    width: 90%;
+    border-bottom: 1px solid;
+    display: block;
+    margin: auto;
+}
+.poke-container .poke-img img {
+    width: 70%;
+    display: block;
+    margin: 20px auto;
+}
+
+.poke-container .poke-img .pokeNameInfo {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.poke-container .poke-img .pokeNameInfo h2, .no {
+    font-size: 14px;
+    display: inline;
+}
+
+.poke-container .poke-img .pokeNameInfo .no {
+    font-size: 22px;
+    font-family: 'Roboto Mono';
+}
+.poke-container .poke-info .pokeStats2 {
+    margin-top: -7px;
+    margin-right: 10px;
+}
+.poke-container .poke-info .pokeStats2 p {
+    font-size:20px;
+    font-family: 'Roboto Mono';
+    line-height: 4px;
+}
+
+.poke-container .poke-img .pokeNameInfo small {
+    display: block;
+    margin-top: 15px;
+}
+
+.poke-container .poke-info {
+    margin-top: 15px;
+    font-size: 12px;
+    display: flex;    
+    justify-content: space-evenly;  
+}
